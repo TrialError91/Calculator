@@ -19,6 +19,11 @@ h1 {
 
 .line {
     margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 button {
@@ -86,3 +91,20 @@ body {
     border-radius: 10px;
     min-height: 76px;
 }
+
+.number:hover {
+    background-color: rgb(63, 61, 61);
+}
+
+.operator:hover,.equal:hover,.backspace:hover {
+    background-color: rgb(195, 148, 8);
+}
+
+.dot:hover, .clear:hover {
+    background-color: rgb(215, 207, 207);
+}
+
+.equal {
+    flex-grow: 0.865;
+}
+
